@@ -37,3 +37,38 @@ La famosa ecuación de Einstein es $E = mc^2$, la cual relaciona masa y energía
 2. Segundo paso
 3. Tercer paso
 
+#Tabla creada con sintaxis Markdown.#
+
+| Producto | Cantidad | Precio Unitario |
+|----------|:--------:|----------------:|
+| Laptop   |    5     |        \$800 USD |
+| Mouse    |    12    |         \$25 USD |
+| Teclado  |    8     |         \$45 USD |
+
+#Tabla creada con código de R.#
+
+```{r}
+#| label: tabla-r
+#| echo: true
+#| message: false
+
+library(knitr)
+datos <- data.frame(
+  País = c("Argentina", "Chile", "Perú"),
+  Población_Millones = c(46.2, 19.6, 34.3)
+)
+kable(datos, caption = "Tabla generada con código de R")
+```
+
+# Bloques de código ocultos y visibles.#
+
+```{r}
+#| echo: true
+resultado <- 5 + 5
+print(resultado)
+```
+
+```{r}
+#| echo: false
+cat("Este texto proviene de un bloque de código cuyo origen está oculto.")
+```
