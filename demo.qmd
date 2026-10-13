@@ -1,6 +1,8 @@
 ---
-title: "demo"
-format: html
+title: "demo en quarto tp opcional"
+author: JPC
+date: 10-2026
+format: gfm
 ---
 
 #Figura creada con código de R.#
