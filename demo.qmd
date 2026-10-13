@@ -3,3 +3,37 @@ title: "demo"
 format: html
 ---
 
+#Figura creada con código de R.#
+```{r}
+#| label: grafico-ggplot
+#| echo: true
+#| message: false
+#| fig-cap: "Gráfico de dispersión avanzado con ggplot2"
+
+library(ggplot2)
+
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point(color = "darkcyan", size = 3, alpha = 0.7) +
+  geom_smooth(method = "lm", color = "coral", se = FALSE) +
+  labs(title = "Velocidad vs Distancia de Frenado",
+       x = "Velocidad (mph)",
+       y = "Distancia (ft)") +
+  theme_minimal()
+```
+
+#Figura a partir de un archivo de imagen externo#
+![Rueda Fiat Toro](C:/Users/Joaquin/Desktop/Maestria - AUSTRAL/Analisis Inteligente de Datos/tp/tp-opcional/tarea-opcional-JPC666/imagen_ejemplo.png)
+
+#Texto con sintaxis Markdown (negrita y cursiva).#
+***La rueda que figura en la imagen anterior corresponde a una fiat toro***
+
+
+#Escritura matemática.#
+La famosa ecuación de Einstein es $E = mc^2$, la cual relaciona masa y energía.
+
+#Listas.#
+**Lista ordenada:**
+1. Primer paso
+2. Segundo paso
+3. Tercer paso
+
