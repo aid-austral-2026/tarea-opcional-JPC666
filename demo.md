@@ -2,7 +2,7 @@
 JPC
 2026-10-01
 
-# Figura creada con código de R.
+# Figura creada con código de R
 
 ``` r
 library(ggplot2)
@@ -27,21 +27,21 @@ ggplot2](demo_files/figure-commonmark/grafico-ggplot-1.png)
 
 ![Rueda Fiat Toro](imagen_ejemplo.png)
 
-# exto con sintaxis Markdown (negrita y cursiva).
+# Texto con sintaxis Markdown (negrita y cursiva)
 
 ***La rueda que figura en la imagen anterior corresponde a una fiat
 toro***
 
-# Escritura matemática.
+# Escritura matemática
 
 La famosa ecuación de Einstein es $E = mc^2$, la cual relaciona masa y
 energía.
 
-# Listas.
+# Listas
 
 **Lista ordenada:** 1. Primer paso 2. Segundo paso 3. Tercer paso
 
-# Tabla creada con sintaxis Markdown.
+# Tabla creada con sintaxis Markdown
 
 | Producto | Cantidad | Precio Unitario |
 |----------|:--------:|----------------:|
@@ -49,7 +49,7 @@ energía.
 | Mouse    |    12    |        \$25 USD |
 | Teclado  |    8     |        \$45 USD |
 
-# Tabla creada con código de R.
+# Tabla creada con código de R
 
 ``` r
 library(knitr)
