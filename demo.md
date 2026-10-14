@@ -2,7 +2,7 @@
 JPC
 2026-10-01
 
-\#Figura creada con código de R.#
+# Figura creada con código de R.
 
 ``` r
 library(ggplot2)
@@ -23,19 +23,25 @@ ggplot(cars, aes(x = speed, y = dist)) +
 ![Gráfico de dispersión avanzado con
 ggplot2](demo_files/figure-commonmark/grafico-ggplot-1.png)
 
-\#Figura a partir de un archivo de imagen externo# ![Rueda Fiat
-Toro](imagen_ejemplo.png)
+# Figura a partir de un archivo de imagen externo
 
-\#Texto con sintaxis Markdown (negrita y cursiva).# ***La rueda que
-figura en la imagen anterior corresponde a una fiat toro***
+![Rueda Fiat Toro](imagen_ejemplo.png)
 
-\#Escritura matemática.# La famosa ecuación de Einstein es $E = mc^2$,
-la cual relaciona masa y energía.
+# exto con sintaxis Markdown (negrita y cursiva).
 
-\#Listas.# **Lista ordenada:** 1. Primer paso 2. Segundo paso 3. Tercer
-paso
+***La rueda que figura en la imagen anterior corresponde a una fiat
+toro***
 
-\#Tabla creada con sintaxis Markdown.#
+# Escritura matemática.
+
+La famosa ecuación de Einstein es $E = mc^2$, la cual relaciona masa y
+energía.
+
+# Listas.
+
+**Lista ordenada:** 1. Primer paso 2. Segundo paso 3. Tercer paso
+
+# Tabla creada con sintaxis Markdown.
 
 | Producto | Cantidad | Precio Unitario |
 |----------|:--------:|----------------:|
@@ -43,7 +49,7 @@ paso
 | Mouse    |    12    |        \$25 USD |
 | Teclado  |    8     |        \$45 USD |
 
-\#Tabla creada con código de R.#
+# Tabla creada con código de R.
 
 ``` r
 library(knitr)
