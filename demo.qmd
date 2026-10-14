@@ -1,7 +1,7 @@
 ---
 title: "demo en quarto tp opcional"
 author: JPC
-date: 10-2026
+date: octubre 2026
 format: gfm
 ---
 
@@ -24,7 +24,7 @@ ggplot(cars, aes(x = speed, y = dist)) +
 ```
 
 #Figura a partir de un archivo de imagen externo#
-![Rueda Fiat Toro](C:/Users/Joaquin/Desktop/Maestria - AUSTRAL/Analisis Inteligente de Datos/tp/tp-opcional/tarea-opcional-JPC666/imagen_ejemplo.png)
+![Rueda Fiat Toro](imagen_ejemplo.png)
 
 #Texto con sintaxis Markdown (negrita y cursiva).#
 ***La rueda que figura en la imagen anterior corresponde a una fiat toro***
